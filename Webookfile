@@ -1,0 +1,27 @@
+{
+  "version"    : "0.1",
+  "title"      : "Webook sample",
+  "summary"    : "Sample book",
+  "stylesheet" : "src/stylesheet.css",
+  "source"     : [
+    "src/pre.md",
+    "src/main.md",
+    "src/pos.md"
+  ],
+  "option" : [
+    "-g",
+    "--page-size A4",
+    "--page-offset 0",
+    "--margin-left 20mm",
+    "--margin-right 20mm",
+    "--margin-bottom 25mm",
+    "--margin-top 25mm",
+    "--outline",
+    "--encoding UTF-8"
+  ],
+  "template" : "template/default.erb",
+  "header"   : "template/header.html",
+  "footer"   : "template/footer.html",
+  "out_dir"  : "output",
+  "tmp_dir"  : "tmp"
+}
